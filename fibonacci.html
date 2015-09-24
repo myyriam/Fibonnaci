@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/example.css">
+		<script src="scripts/jquery-1.11.3.js"></script>
+		<script src="scripts/myscript.js"></script>
+	</head>
+	<body>
+		<div class="alert alert-dismissible alert-info">
+			<h2>Would you like to know wich number belongs to a position accordingly to Fibonacci?</h2>
+			<h3>So you are on the right place!</h3>
+		</div>
+		<form class="form-saves-info">
+			<div class="well bs-component">
+				<label>Position</label>
+				<input type="integer" id ="position"class="form-control" placeholder="Enter the position">
+				<button type="submit" class="a btn btn-primary" id="button">Get position</button>
+			</div>
+		</form>
+
+		<table id="tabl" style="width:100%">
+			<th>Position</th>
+			<th>Fibonacci</th>
+		</table>
+
+	</body>
+</html>

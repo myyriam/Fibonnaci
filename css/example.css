@@ -1,0 +1,19 @@
+.turn-blue{
+	color: blue;
+}
+.turn-red{
+	color: red;
+}
+#tabl{
+	text-align: center;
+	border-width: 5px;
+}
+
+th{
+	text-align: center;
+	border-width: 5px;	
+}
+
+ #button{
+ 	margin: 4px;
+ }
